@@ -69,7 +69,7 @@ def statistiche_classe(lista_studenti):
 
     medie =[]
     for studente in lista_studenti:
-     medie.append(calcola_media_studente(studente))
+        medie.append(calcola_media_studente(studente))
 
     stats['media_classe'] = sum(medie) / len(medie)
 
